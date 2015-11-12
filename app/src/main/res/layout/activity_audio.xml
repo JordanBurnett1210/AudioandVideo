@@ -51,4 +51,12 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="44dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HIDE ALL THE BUTTONS!!!"
+        android:id="@+id/toggleHidden"
+        android:layout_above="@+id/videoButton"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
